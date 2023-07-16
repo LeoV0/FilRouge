@@ -1,0 +1,152 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Les Meubles{% endblock %}
+
+{% block body %}
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal text-light">Bienvenue</h1>
+        <p class="lead font-weight-normal text-light">Site de mobiliers en ligne</p>
+        <a class="btn btn-outline-primary" href=" {{ path('app_shop')}}">Voir les autres produits</a>
+      </div>
+      <div class="product-device box-shadow d-none d-md-block"></div>
+      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Armoire en bois avec finition vert forêt </h2>
+          <p class="lead">Cette armoire est fabriquée en bois de haute qualité, offrant une robustesse et une durabilité exceptionnelles. Sa finition vert forêt ajoute une couleur vibrante et apaisante à votre espace. Les nuances de vert évoquent la nature et créent une atmosphère sereine dans la pièce.</p>
+          <h4>Prix de ce meuble : 90€</h4>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+
+        <img loading='lazy' width='650' height='300' src="{{ asset('images/Meuble20.jpg')}}" alt="">
+        </div>
+        <a class="btn btn-outline-secondary" href=" {{ path('app_shop')}}">En savoir plus</a>
+        <a class="btn btn-outline-primary" href="#">Ajouter au panier</a>
+      </div>
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3 text-light">
+          <h2 class="display-5">Buffet en bois avec finition bleu</h2>
+          <p class="lead">Ce buffet est fabriqué en bois de haute qualité, offrant une durabilité et une beauté naturelle. Sa finition bleu ajoute une touche de sophistication et de profondeur à l'ensemble. Les nuances de bleu évoquent un sentiment de calme et de sérénité dans la pièce.</p>
+          <h4>Prix de ce meuble : 70€</h4>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img loading='lazy' width='650' height='300' src="{{ asset('images/Meuble21.jpg')}}" alt="">
+        </div>
+
+        <a class="btn btn-outline-secondary" href=" {{ path('app_shop')}}">En savoir plus</a>
+        <a class="btn btn-outline-primary" href="#">Ajouter au panier</a>
+
+      </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3 text-light">
+          <h2 class="display-5 ">Armoire vert kaki en métal </h2>
+          <p class="lead ">Cette armoire est un mélange unique de style industriel et de couleur verte kaki. Fabriquée en métal robuste, elle offre à la fois durabilité et résistance.</p>
+          <h4>Prix de ce meuble : 80€</h4>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img loading='lazy' width='650' height='300' src="{{ asset('images/Meuble22.jpg')}}" alt="">
+        
+        </div>
+
+        <a class="btn btn-outline-secondary" href=" {{ path('app_shop')}}">En savoir plus</a>
+        <a class="btn btn-outline-primary" href="#">Ajouter au panier</a>
+      </div>
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3 text-light">
+          <h2 class="display-5 ">Buffet en bois avec finition bleu marine </h2>
+          <p class="lead">Ce magnifique buffet allie la beauté naturelle du bois à l'élégance intemporelle de la finition bleu marine. Fabriqué à partir de bois de qualité supérieure, il offre une robustesse et une durabilité exceptionnelles.</p>
+          <h4>Prix de ce meuble : 100€</h4>
+        </div>
+        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img loading='lazy' width='650' height='300' src="{{ asset('images/Meuble23.jpg')}}" alt="">
+        </div>
+
+        <a class="btn btn-outline-secondary" href=" {{ path('app_shop')}}">En savoir plus</a>
+        <a class="btn btn-outline-primary" href="#">Ajouter au panier</a>
+      </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3 text-light">
+          <h2 class="display-5">Meuble en métal bleu </h2>
+          <p class="lead ">Ce meuble en métal bleu est à la fois fonctionnel et esthétiquement attrayant. Fabriqué en métal robuste, il offre une durabilité et une résistance supérieures.</p>
+          <h4>Prix de ce meuble : 60€</h4>
+        </div>
+        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img loading='lazy' width='650' height='300' src="{{ asset('images/Meuble24.jpg')}}" alt="">
+        </div>
+
+        <a class="btn btn-outline-secondary" href=" {{ path('app_shop')}}">En savoir plus</a>
+        <a class="btn btn-outline-primary" href="#">Ajouter au panier</a>
+      </div>
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3 text-light">
+          <h2 class="display-5 ">Armoire en bois </h2>
+          <p class="lead ">Cette magnifique armoire est entièrement fabriquée en bois de haute qualité, offrant à la fois un charme naturel et une durabilité exceptionnelle.</p>
+          <h4>Prix de ce meuble : 86€</h4>
+        </div>
+        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img loading='lazy' width='650' height='300' src="{{ asset('images/Meuble25.jpg')}}" alt="">
+        </div>
+
+        <a class="btn btn-outline-secondary" href=" {{ path('app_shop')}}">En savoir plus</a>
+        <a class="btn btn-outline-primary" href="#">Ajouter au panier</a>
+      </div>
+    </div>
+
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Business</a></li>
+            <li><a class="text-muted" href="#">Education</a></li>
+            <li><a class="text-muted" href="#">Government</a></li>
+            <li><a class="text-muted" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+{% endblock %}
